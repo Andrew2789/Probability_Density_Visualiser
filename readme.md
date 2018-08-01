@@ -1,7 +1,7 @@
-To view the probability density as a 3D contour graph, run contour_visualiser.exe (Windows only, requires OpenGL 2)  
-To regenerate the contour information binary (contours.bin), run contour_generator.py (requires Python 3 with the matplotlib and numpy libraries)  
+-To view the probability density as a 3D contour graph, run contour_visualiser.exe (Windows only, requires OpenGL 2)  
+-To regenerate the contour information binary (contours.bin), run contour_generator.py (requires Python 3 with the matplotlib and numpy libraries)  
 
-viewing attributes:  
+**Relevant attributes**:  
 -radius - this is the radius from the origin that the camera is positioned at. the camera always looks towards the origin  
 -height - this is the height at which the camera is  
 -line width - this is the width of the contour lines drawn  
@@ -11,7 +11,7 @@ viewing attributes:
 -the y axis is green  
 -the z axis is blue  
 
-controls:  
+**Controls**:  
 -q - increase height  
 -e - decrease height  
 -w - reduce radius (radius cannot decrease below 0)  
